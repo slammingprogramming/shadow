@@ -1,0 +1,35 @@
+# .gitignore for Ruby and VSCode
+
+# Ignore Ruby-specific files
+*.gem
+*.rbc
+.bundle
+.config
+.yardoc
+_yardoc
+*.sqlite3
+*.sass-cache
+log/*
+tmp/*
+db/*.sqlite3
+
+# VSCode specific files
+.vscode/
+
+# Ignore all test log files
+test/test.log
+test/tmp/*
+
+# Ignore environment files that might contain sensitive data
+.env
+.env.*
+
+# Ignore bundler config
+.bundle/
+
+# Ignore RubyMine project files (if applicable)
+.idea/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
